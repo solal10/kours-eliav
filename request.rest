@@ -1,0 +1,34 @@
+### 
+
+GET http://localhost:3000/
+
+###
+
+GET http://localhost:3000/post
+
+###
+
+POST http://localhost:3000/post
+
+
+####
+POST http://localhost:3000/student
+Content-Type: application/json
+
+{
+    "name": "John5",
+    "age": 20,
+    "_id":"0222020020202022"
+}
+######
+
+GET http://localhost:3000/student/0222020020202022
+
+#####
+
+GET http://localhost:3000/student?name=John5
+
+####
+
+GET http://localhost:3000/student
+
